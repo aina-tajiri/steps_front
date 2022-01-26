@@ -1,0 +1,133 @@
+/* 全デバイス,画面サイズ共通/SP縦(メディアクエリなし) */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #3a505d;
+    letter-spacing: 0.2em;
+    background-color: #ededed;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 86vw;
+    margin: 50px auto;
+    font-size: 1.7em;
+}
+
+#top_text{
+    text-align: center;
+    margin: 30px 0;
+}
+
+#daily_achievement{
+    border-bottom: 2px solid #3a505d;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 30px 0;
+}
+
+#daily_achievement i{
+    font-size: 70px;
+}
+
+#progress{
+    background-color: #fff;
+    border-radius: 12px;
+    width: 170px;
+    height: 40px;
+    padding: 8px 16px 0 16px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 20px 0;
+}
+
+#progress i{
+    font-size: 18px;
+    margin-top: 6px;
+}
+
+#add_diary{
+    background-color: #70d1ad;
+    color: #fff;
+    box-shadow: 2px 4px 6px rgba(58, 80, 93, 0.4);
+    border-radius: 50px;
+    width: 70px;
+    text-align: center;
+    font-size: 30px;
+    padding: 12px 0;
+    position: fixed;
+    bottom: 110px;
+    right: 8%;
+}
+
+footer{
+    background-color: #70d1ad;
+    position: fixed;
+    justify-content: space-around;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height:  7vh;
+    font-size: 2.2em;
+    padding-top: 20px;
+}
+
+.space{
+    height:  15vh;
+}
+
+.date{
+    display: flex;
+    width: 82vw;
+    padding: 8% 5% 0 5%;
+}
+
+.block{
+    background-color: #fff;
+    border-radius: 14px;
+    box-shadow: 0px 5px 4px #cdd2d4;
+    width: 80%;
+    margin: 0 auto;
+    padding: 5%;
+    font-size: 0.8em;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.block img{
+    width: 21vw;
+    border-radius: 10px;
+}
+
+.text1{
+    background-color: #ededed;
+    border-radius: 10px;
+    width: 55vw;
+}
+
+.text2{
+    background-color: #ededed;
+    border-radius: 10px;
+    margin-top: 3%;
+    height: 60px;
+}
+
+/* TB縦/SP横 */
+/* @media screen and (min-width: 481px){
+
+} */
+
+/* PC/ TB横 */
+/* @media screen and (min-width: 769px){
+
+} */
