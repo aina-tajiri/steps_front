@@ -1,4 +1,3 @@
-/* 全デバイス,画面サイズ共通/SP縦(メディアクエリなし) */
 *{
     margin: 0;
     padding: 0;
@@ -79,6 +78,19 @@ footer{
     padding-top: 20px;
 }
 
+i {
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+footer i:hover{
+    color: #fff;
+}
+
+header i:hover{
+    color: #717f88;
+}
+
 .space{
     height:  15vh;
 }
@@ -121,13 +133,3 @@ footer{
     margin-top: 3%;
     height: 60px;
 }
-
-/* TB縦/SP横 */
-/* @media screen and (min-width: 481px){
-
-} */
-
-/* PC/ TB横 */
-/* @media screen and (min-width: 769px){
-
-} */
